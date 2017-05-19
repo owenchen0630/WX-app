@@ -23,7 +23,7 @@ Page({
         return {
             title: '刘小雨の小枇杷',
             desc: '萌萌哒阿雨和枇杷',
-            path: '/page/user?id=123'
+            path: 'www.owenchen.cn'
         }
     }
 

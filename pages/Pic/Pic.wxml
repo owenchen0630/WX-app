@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+
+<span style="font-family:Comic Sans MS;font-size:18px;color:#333333;"><image src="http://opvi9iwql.bkt.clouddn.com/mmexport1492264880389.jpg" bindload="imageLoad"  
+style="width:{{imgwidth}}rpx; height:{{imgheight }}rpx;"></image></span>  
+
+</view>

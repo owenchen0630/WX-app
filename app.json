@@ -4,10 +4,30 @@
     "pages/logs/logs",
     "pages/Pic/Pic"
   ],
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "pages/Img/index.png",
+        "iconPath": "pages/Img/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/Img/gift.png",
+        "iconPath": "pages/Img/gift.png",
+        "pagePath": "pages/Pic/Pic",
+        "text": "图片"
+      }
+    ]
+  },
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "LsyのPipa",
     "navigationBarTextStyle":"black"
   }
+
 }
