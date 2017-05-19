@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+<image class="pipa" src="../Img/pipa.jpg"></image>
+  <text>{{Enter}}</text>
+  <view class="Name">{{Name}}</view>
+    <text>{{Enter}}</text>
+  <view class="Motto">{{Motto}}</view>
+      <text>{{Enter}}</text>
+  <view class="Dates">{{Dates}}</view>
+</view>
