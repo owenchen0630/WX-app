@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/Pic/Pic"
+    "pages/Pic/Pic",
+    "pages/txt/txt"
   ],
   "tabBar": {
     "color": "#a9b7b7",
@@ -20,6 +21,12 @@
         "iconPath": "pages/Img/gift.png",
         "pagePath": "pages/Pic/Pic",
         "text": "图片"
+      },
+      {
+        "selectedIconPath": "pages/Img/kdxb.png",
+        "iconPath": "pages/Img/kdxb.png",
+        "pagePath": "pages/txt/txt",
+        "text": "枇杷"
       }
     ]
   },

@@ -1,4 +1,4 @@
-  
+
 Page({
   data: {
     src_head: "http://opvi9iwql.bkt.clouddn.com/",
@@ -8,7 +8,7 @@ Page({
   onLoad: function () {
 
     this.setData({
-      img_src: "http://opvi9iwql.bkt.clouddn.com/wx01.jpg"
+      img_src: "http://opvi9iwql.bkt.clouddn.com/wx02.jpg"
     })
   },
 
@@ -28,17 +28,17 @@ Page({
     })
   },
 
-    imageLoad: function (e) {
-      var _this = this;
-      var $width = e.detail.width,    //获取图片真实宽度  
-        $height = e.detail.height,
-        ratio = $width / $height;   //图片的真实宽高比例  
-      var viewWidth = 750,           //设置图片显示宽度，  
-        viewHeight = 750 / ratio;    //计算的高度值     
-      this.setData({
-        imgwidth: viewWidth,
-        imgheight: viewHeight
-      })
-    }
+  imageLoad: function (e) {
+    var _this = this;
+    var $width = e.detail.width,    //获取图片真实宽度  
+      $height = e.detail.height,
+      ratio = $width / $height;   //图片的真实宽高比例  
+    var viewWidth = 750,           //设置图片显示宽度，  
+      viewHeight = 750 / ratio;    //计算的高度值     
+    this.setData({
+      imgwidth: viewWidth,
+      imgheight: viewHeight
+    })
+  }
 
 })

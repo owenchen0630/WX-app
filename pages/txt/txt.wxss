@@ -1,0 +1,7 @@
+.xy{
+  width: 512rpx;
+  height: 512rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+
+}
